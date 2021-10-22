@@ -1,7 +1,7 @@
 h1 {
   font-size: 55px;
   margin: 0 auto;
-  margin-top: 30px;
+  padding: 80px 0px 40px 0px;
   text-align: center;
 }
 
@@ -11,10 +11,10 @@ form {
 }
 
 .form {
-  border: 2px #807f7f solid;
+  background-color: white;
   border-radius: 7px;
-  box-shadow: 10px 5px 15px #929292;
-  padding: 20px 10px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  padding: 20px 10px 30px 10px;
   margin: 0 auto;
   margin-bottom: 40px;
   margin-top: 60px;
@@ -23,4 +23,18 @@ form {
 
 .search-bar {
   margin-right: 20px;
+  height: 45px;
+  width: 75%;
+}
+
+.search-text {
+  padding: 0px 0px 20px 15px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #ff7e67;
+  border-color: #ff7e67;
+  padding: 10px 20px;
 }

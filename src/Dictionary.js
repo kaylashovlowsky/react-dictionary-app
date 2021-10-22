@@ -40,6 +40,7 @@ export default function Dictionary() {
     <div>
       <h1>Digital Dictionary</h1>
       <form onSubmit={define} className="form">
+        <div className="search-text">What do you want to search for?</div>
         <input
           type="search"
           placeholder="Search..."
