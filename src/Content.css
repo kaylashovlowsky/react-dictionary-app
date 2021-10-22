@@ -1,0 +1,10 @@
+.word-display,
+.definition-display {
+  border: 2px #807f7f solid;
+  border-radius: 7px;
+  box-shadow: 10px 5px 15px #929292;
+  padding: 20px 10px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  max-width: 967px;
+}
