@@ -7,12 +7,29 @@ function App() {
       <div className="container">
         <header className="App-header"></header>
         <Dictionary />
-        <p>
-          <a href="https://github.com/kaylashovlowsky/react-dictionary-app">
-            Open-source code
-          </a>{" "}
-          by Kayla Shovlowsky
-        </p>
+        <br />
+        <hr />
+        <footer>
+          <p>
+            <a
+              href="https://github.com/kaylashovlowsky/react-dictionary-app"
+              className="source-code"
+            >
+              Open-source code
+            </a>{" "}
+            by Kayla Shovlowsky 👩‍💻
+          </p>
+          <p>
+            Hosted on{" "}
+            <a
+              href="https://app.netlify.com/sites/sad-swirles-fc07f7/overview"
+              className="netlify-code"
+            >
+              Netlify
+            </a>{" "}
+            💻
+          </p>
+        </footer>
       </div>
     </div>
   );
