@@ -29,7 +29,6 @@ hr {
 
 .search-bar {
   height: 45px;
-
   padding: 0px 15px;
 }
 
@@ -37,10 +36,4 @@ hr {
   padding: 0px 0px 20px 12px;
   text-align: left;
   font-size: 20px;
-}
-
-.define {
-  background-color: #ff7e67;
-  border-color: #ff7e67;
-  padding: 10px 20px;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import "./Photos.css";
 
 export default function Photos(props) {
   if (props.photos) {
@@ -12,7 +13,7 @@ export default function Photos(props) {
                   <img
                     src={photo.src.landscape}
                     key={index}
-                    className="img-fluid"
+                    className="img-fluid photos-grid"
                   />
                 </a>
               </div>
