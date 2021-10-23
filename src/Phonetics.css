@@ -1,0 +1,12 @@
+.audio {
+  background-color: #42b883;
+  border-color: #42b883;
+  padding: 10px 20px;
+  margin-right: 30px;
+  margin-left: 15px;
+}
+
+.audio:hover {
+  background-color: #347474;
+  border-color: #347474;
+}

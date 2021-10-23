@@ -39,17 +39,15 @@ export default function Dictionary() {
   return (
     <div>
       <h1>Digital Dictionary</h1>
+      <hr />
       <form onSubmit={define} className="form">
         <div className="search-text">What do you want to search for?</div>
         <input
           type="search"
           placeholder="Search..."
-          className="search-bar"
+          className="search-bar form-control"
           onChange={handleDefinition}
         />
-        <button type="submit" className="btn btn-primary">
-          Define
-        </button>
       </form>
       <Content results={results} />
       <Photos photos={photos} />
