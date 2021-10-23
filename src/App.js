@@ -14,6 +14,8 @@ function App() {
             <a
               href="https://github.com/kaylashovlowsky/react-dictionary-app"
               className="source-code"
+              target="_blank"
+              rel="noreferrer"
             >
               Open-source code
             </a>{" "}
@@ -24,6 +26,8 @@ function App() {
             <a
               href="https://app.netlify.com/sites/sad-swirles-fc07f7/overview"
               className="netlify-code"
+              target="_blank"
+              rel="noreferrer"
             >
               Netlify
             </a>{" "}

@@ -14,6 +14,7 @@ export default function Photos(props) {
                     src={photo.src.landscape}
                     key={index}
                     className="img-fluid photos-grid"
+                    alt="examples of defined word"
                   />
                 </a>
               </div>
